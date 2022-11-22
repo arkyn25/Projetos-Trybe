@@ -1,0 +1,18 @@
+.form-control {
+  color: white;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.fieldName {
+  width: 250px;
+}
+
+.fieldValue {
+  width: 350px;
+}
+
+.inputFilter h1 {
+  color: white;
+}

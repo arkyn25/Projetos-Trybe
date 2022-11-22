@@ -1,0 +1,9 @@
+.table-header {
+  background: silver;
+  border: 2px solid black;
+}
+
+.table-body {
+  background: lightblue;
+  text-align: center;
+}

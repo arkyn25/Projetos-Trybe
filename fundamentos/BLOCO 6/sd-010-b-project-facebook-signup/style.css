@@ -1,0 +1,127 @@
+.top-bar {
+  display: flex;
+  background-color: rgb(66, 103, 178);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.facebook-login {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.facebook-logo {
+  align-self: flex-start;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+}
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-content {
+  flex-basis: 800px;
+}
+
+.right-content {
+  flex-basis: 300px;
+}
+
+.right-content .form-subscribe #facebook-register {
+  margin-top: 20px;
+  height: 38px;
+  width: 140px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #006117;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(#6fad5a, #66a150, #60974c);
+}
+
+.right-content .form-subscribe #facebook-register:hover {
+  background: linear-gradient(#74b85e, #598b45);
+}
+
+.form-subscribe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.right-content .form-subscribe input {
+  margin-top: 5px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+
+.form-subscribe-half-line {
+  margin: 4px 2px;
+  padding: 1px;
+  width: 44%;
+}
+
+.form-subscrib-full-line {
+  margin: 4px 2px;
+  padding: 1px;
+  width: 100%;
+}
+
+.right-content .form-group input {
+  height: 23px;
+  width: 150px;
+  padding-left: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+
+#button-login {
+  height: 24px;
+  width: 50px;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 20px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background: #2d5bba;
+  border: 1px solid #224285;
+}
+
+#button-login:hover {
+  background: #3b5998;
+}
+
+body {
+  height: 614px;
+  width: 100%;
+  top: 800px;
+  background: linear-gradient(#fdfdfe, #eff1f6, #e3e6f0, #d6dbea);
+}
+
+#generos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

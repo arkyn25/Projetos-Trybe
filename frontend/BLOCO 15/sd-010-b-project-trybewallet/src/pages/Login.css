@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.box {
+  background: #191919;
+  border-radius: 10px;
+  left: 26%;
+  margin: auto;
+  padding: 40px;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  transition: 0.25s;
+  width: 350px;
+}
+
+.box input {
+  background: none;
+  border: 2px solid #3498db;
+  border-radius: 24px;
+  color: white;
+  display: block;
+  margin: 20px auto;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  transition: 0.25s;
+  width: 250px;
+}
+
+.box h1 {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.box input [ type = 'password' ]:focus {
+  border-color: #2ecc71;
+  width: 300px;
+}
+
+.box input [ type = 'submit' ] {
+  background: none;
+  border: 2px solid #2ecc71;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  outline: none;
+  padding: 14px 40px;
+  text-align: center;
+  transition: 0.25s;
+}
+
+.box input [ type = 'submit' ]:hover {
+  background: #2ecc71;
+}
+
+.text-muted {
+  color: white;
+}

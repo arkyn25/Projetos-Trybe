@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="top-bar">
+    <img class="facebook-logo" src="imgs/facebook-logo.png" alt="logo-facebook">
+    <form action="#" class="facebook-login" method="GET">
+      <div class="form-group">
+        <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label> 
+        <input type="text" name="email-telefone" placeholder="Email ou telefone" id="user-email-phone" required>
+      </div>
+      <div class="form-group">
+        <label for="user-password" id="user-password-label">Senha</label>
+        <input type="text" placeholder="Senha" name="senha" id="user-password" required>
+      </div>
+      <div class="form-group form-control">
+        <button type="submit" id="button-login">Entrar</button>
+      </div>
+    </form>
+  </header>
+  <main class="main-content">  
+    <section class="left-content">
+      <p id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="imgs/networking.png" id="facebook-networking" alt="">
+    </section> 
+    <section class="right-content">
+      <h1>Abra uma conta</h1>
+
+      <p class="quick-easy">É rápido e fácil.</p>
+      <form action="" method="" id="form" class="form-subscribe right-content">
+        <input type="text" name="firstname" placeholder="Nome" id="nome" class="form-subscribe-half-line" required>
+        <input type="text" name="lastname" placeholder="Sobrenome" id="sobrenome" class="form-subscribe-half-line" required>
+        <input type="text" name="phone_email" placeholder="Celular ou email" id="email" class="form-subscrib-full-line" required>
+        <input type="password" name="password" placeholder="Nova senha" id="password" class="form-subscrib-full-line" required>
+        <div class="form-group">
+          <label for="birthdate" id="label-birthdate">Data de nascimento</label>
+          <input type="text" name="birthdate" id="birthdate" placeholder="dd/mm/aaaa" required>
+        </div>
+        <div id="generos">
+          <label for="" id="label-gender" class="container form-subscrib-full-line">Gênero</label>
+        <input type="radio" name="gender" value="Feminino" id="Feminino" required>
+        <label for="Feminino">Feminino</label>
+        <input type="radio" name="gender" value="Masculino" id="Masculino" required>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="gender" value="Personalizado" id="Personalizado" required>
+        <label for="Personalizado">Personalizado</label>
+      </div>
+      <button type="submit" id="facebook-register">Cadastre-se</button>
+      <p id="para"></p>
+    </form>
+    </section> 
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
